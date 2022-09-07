@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Make sure you install Docker, you can check if you have it by running the command ```docker -v```
+Make sure you create and update your ```.env``` file to connect your Frontend to the Backend.
+Run ```docker-compose up``` to start both the Frontend and Backend. (PORT 3001 for Frontend and PORT 3000 for Backend).
+Use ```docker exec``` to run commands on a running container.
+
+Windows Users -> Use WindowsPowershell to run docker commands
